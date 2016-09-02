@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+	</script>
+</head>
+<body>
+	
+	<div class="weather-app">
+		<div class="location">
+			<span id="location">Unknown</span>
+		</div>
+		
+		<div class="temperature">
+			<span>&nbsp;</span>
+			<span id="temperatureCelsius">0</span>
+			<span id="temperatureFarenheit">0</span>
+			<span>&deg</span>
+			<br>
+			<button id="pushme">FAREHNHEIT</button>
+		</div>
+
+
+
+		<div class="top">
+			<img id="icon" weight="75px">
+		</div>
+		<div class="bottom">
+			<div class="humidity">
+				<i class="fa fa-tint" aria-hidden="true">&nbsp;<span id="humidity">&nbsp;</span>%</i>
+
+			</div>
+			<div class="wind">
+				<span id="wind">0</span> mph <span id="direction">N</span>
+			</div>
+		</div>
+	</div>
+	
+	<script src="app.js"></script>
+</body>
+</html>
